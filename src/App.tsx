@@ -14,10 +14,10 @@ interface IState {
 function App() {
   const [people, setPeople] = useState<IState["people"]>([
     {
-      name: "James",
-      url: "",
+      name: "Mickey Mouse",
+      url: "https://static.wikia.nocookie.net/disney/images/b/bf/Mickey_Mouse_Disney_1.png",
       age: 36,
-      note: "notes goe here",
+      note: "notes go here",
     },
   ]);
 
